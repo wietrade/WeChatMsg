@@ -122,8 +122,4 @@ cache/de_MicroMsg.db    ←── contacts.py / export.py 读取联系人
 - 微信 ≥ 4.0.3.36 版本密钥不再常驻内存，建议用 4.0.3.19 获取密钥后升级
 - 本工具仅用于个人数据备份
 
-## 许可
 
-MIT License
-
-上游项目：[LC044/WeChatMsg](https://github.com/LC044/WeChatMsg) (MemoTrace)
