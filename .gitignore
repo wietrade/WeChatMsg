@@ -1,39 +1,22 @@
-# Python
-venv/
-__pycache__/
+.vscode
+.idea
+build
+data
+sqlcipher-3.0.1
+dist
+venv
+.venv
+venv_decrypt
+venv_main_pc
+TEST
+app/data/avatar
+app/data/image2
+app/data/emoji
+app/DataBase/Msg/*
+*.db
 *.pyc
-*.pyo
-*.egg-info/
-dist/
-build/
+*.log
+*.spec
+test*.DS_Store
 
-# VS Code
-.vscode/
-.idea/
-
-# 微信解密缓存
-cache/
-output/
-备份/
-
-# 旧版脚本（已废弃）
-query.py
-export_messages.py
-decrypt_tool.py
-check_match.py
-
-# 旧数据文件
-V1.1.csv
-V1.2.csv
-V1.3.csv
-最近发送消息的联系人.csv
-聊天记录.csv
-聊天记录.txt
-contacts.csv
-key.txt
-de_MSG0.db
-de_MSG0_bak.db
-日志文件-*-log.log
-
-# 按键精灵相关（在 WeChat-mass-msg/ 中）
-send_log.csv
+.DS_Store
