@@ -28,12 +28,12 @@ python contacts.py --stats
 | `extract_key.py` | 提取微信数据库密钥 | `python extract_key.py --save` |
 | `contacts.py` | 通讯录管理 | `--stats` 统计, `--search` 搜索, `--export` 导出 |
 | `messages.py` | 聊天记录查询 | `--search` 搜内容, `--days 7` 最近7天, `--sql` 原始SQL |
-| `export.py` | 聊天记录导出 | `--csv` / `--txt`, `--days N`, `--date YYYY-MM-DD` |
+| `export.py` | 聊天记录导出 | `--csv` / `--txt` / `--json` / `--db`, `--days N`, `--date YYYY-MM-DD` |
+| `wx_common.py` | 共享模块（供其他工具调用） |
 
 ## 目录说明
 
 ```
-exporter/         导出模块（HTML/TXT/Markdown/CSV 等）
 wxManager/        数据库读取、解析、解密逻辑
 cache/            解密后的数据库缓存
 wx_cache.json     密钥缓存
